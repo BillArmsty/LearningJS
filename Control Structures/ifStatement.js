@@ -52,3 +52,18 @@ for (let i = 0; i <= 10; i++) {
     console.log(i);
   }
 }
+
+//Using Break to Exit a Loop
+//The break statement terminates the current loop, switch, or label statement and
+// transfers program control to the statement following the terminated statement.
+//The break statement includes an optional label that allows the program to break out of a labeled statement.
+
+let collection = ["x", "y", 3, 5, "a"];
+let containsNumber = false;
+for (i = 0; i < collection.length; i++) {
+  if (typeof collection[i] === "number") {
+    containsNumber = true;
+    console.log("The number found:" + collection[i]);
+    break;
+  }
+}
