@@ -33,7 +33,6 @@ switch (value) {
     console.log("Value is greater than 2");
 }
 
-
 //Ternary Operator
 //The ternary operator is the only JavaScript operator that takes three operands.
 //The condition is evaluated as true or false.
@@ -44,4 +43,12 @@ let numero = 10;
 
 let result = numero >= 0 ? "Positive" : "Negative";
 
-console.log(`The number is ${result}`)
+console.log(`The number is ${result}`);
+
+//using For Loop to iterate for even numbers from 0 to 10
+
+for (let i = 0; i <= 10; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}
